@@ -1,0 +1,25 @@
+.main__portfolio-text {
+    float: right;
+    padding-top: 120px;
+}
+.main__portfolio-apple {
+    padding-top: 56px;
+}
+.main__portfolio h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #314a5b;
+}
+.main__portfolio h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #314a5b;
+    font-family: "Open Sans";
+}
+.main__portfolio-p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #9aa0ab;
+    font-family: "Open Sans";
+}

@@ -1,0 +1,69 @@
+.main__team h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #314a5b;
+    text-transform: uppercase;
+    padding-top: 105px;
+}
+.main__team span {
+    color: #f0454c;
+}
+.main__team h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #9aa0ab;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-family: "Open Sans";
+}
+.main__team-joey {
+    width: 313;
+    float: left;
+}
+.main__team-matt {
+    width: 313;
+    float: left;
+    padding-left: 80px;
+}
+.main__team-mike {
+    width: 313;
+    float: right;
+}
+.team__photo {
+    float: left;
+}
+.team__text {
+    float: left;
+    padding-left: 15px;
+}
+.team__text h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #314a5b;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+    font-family: 'montserrat';
+}
+.team__text h4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #f0454c;
+    margin-bottom: 14px;
+    font-family: "Open Sans";
+}
+.team__text p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9aa0ab;
+    line-height: 20px;
+    font-family: "Open Sans";
+}
+.team-link__more {
+    color: #fa5c65;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 20px;
+    float: right;
+    padding-top: 55px;
+}

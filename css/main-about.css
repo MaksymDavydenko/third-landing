@@ -1,0 +1,51 @@
+.main-wrapper {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 100vh;
+}
+.main-content {
+    flex: 1 0 auto;
+}
+.main__about-peace {
+  float: left;
+  width: 255px;
+}
+.main__about-free {
+  width: 255px;
+  float: left;
+  margin-left: 85px;
+}
+.main__about-simple{
+    width: 255px;
+    float: right;
+}
+.main__about-point {
+    color: #fa5c65
+}
+.main__about h3 {
+    font-size: 26px;
+    color: #465065;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 70px 0 20px 0;
+}
+.main__about p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #9aa0ab;
+    font-family: "Open Sans";
+}
+.link__more-arow {
+    display: inline;
+}
+.link__more p {
+    color: #fa5c65;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.link__more-arow {
+    padding-left: 7px;
+}

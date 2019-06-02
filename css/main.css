@@ -1,0 +1,65 @@
+* {
+    margin: 0; 
+}
+html,
+body {
+  height: 100%;
+  font-family: 'montserrat';
+  box-sizing: border-box;
+}
+header {
+    background: url(..//img/Photo.png)no-repeat center top/cover;
+    height: 957px; 
+}
+.container {
+	width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+.menu {
+    padding-left: 14px;
+    padding-top: 15px;
+    font-weight: 400;
+}
+.menu a {
+    text-decoration: none;
+    color: #263742;
+}
+.menu li {
+    display: block;
+    float: right;
+    text-transform: uppercase;
+    padding-left: 40px;
+    font-weight: 400;
+}
+.logo {
+    float: left;
+    position: relative;
+}
+.logo__name {
+    position: absolute;
+    color: #564d5d;
+    padding-left: 14px;
+    font-size: 20px;
+    padding-top: 43px;
+    font-weight: 700;
+    font-family: Domine;  
+}
+.logo__name span {
+    color: #ffffff;
+}
+.menu__facebook {
+    float: right;
+    padding-left: 25px;
+}
+.menu__twitter {
+    float: right;
+    padding-left: 30px;
+}
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    height: 100%;
+    clear: both;
+ }
