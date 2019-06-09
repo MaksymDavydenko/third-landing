@@ -1,14 +1,25 @@
-.main__team h2 {
+
+.main__block-photo {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.main__team-headline {
+    margin-top: 160px;
+}
+
+.main__team-our {
     font-size: 32px;
     font-weight: 700;
     color: #314a5b;
     text-transform: uppercase;
-    padding-top: 105px;
 }
+
 .main__team span {
     color: #f0454c;
 }
-.main__team h3 {
+
+.main__team-our-friendly {
     font-size: 16px;
     font-weight: 400;
     color: #9aa0ab;
@@ -16,41 +27,33 @@
     margin-bottom: 40px;
     font-family: "Open Sans";
 }
-.main__team-joey {
-    width: 313;
-    float: left;
-}
-.main__team-matt {
-    width: 313;
-    float: left;
-    padding-left: 80px;
-}
-.main__team-mike {
-    width: 313;
-    float: right;
-}
+
 .team__photo {
     float: left;
 }
+
 .team__text {
     float: left;
     padding-left: 15px;
 }
-.team__text h3 {
+
+.team__text-name {
     font-size: 22px;
     font-weight: 700;
     color: #314a5b;
     text-transform: uppercase;
-    margin-bottom: 11px;
+    padding-bottom: 11px;
     font-family: 'montserrat';
 }
+
 .team__text h4 {
     font-size: 14px;
     font-weight: 400;
     color: #f0454c;
-    margin-bottom: 14px;
+    padding-bottom: 14px;
     font-family: "Open Sans";
 }
+
 .team__text p {
     font-size: 14px;
     font-weight: 400;
@@ -58,6 +61,7 @@
     line-height: 20px;
     font-family: "Open Sans";
 }
+
 .team-link__more {
     color: #fa5c65;
     font-size: 14px;
@@ -66,4 +70,55 @@
     padding-top: 20px;
     float: right;
     padding-top: 55px;
+}
+
+
+
+
+@media (max-width: 649px) {
+    .main__team-joey,
+    .main__team-matt {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 649px) {
+    .team__text-name {
+        font-size: 22px;
+        font-weight: 700;
+        color: #314a5b;
+        text-transform: uppercase;
+        font-family: 'montserrat';
+    }
+}
+
+@media (max-width: 939px) {
+    .main__team-our-friendly {
+        font-size: 16px;
+        font-weight: 400;
+        color: #9aa0ab;
+        margin-top: 15px;
+       margin-bottom: 40px;
+        font-family: "Open Sans";
+        text-align: center;
+    }
+} 
+
+@media (max-width: 939px) {
+    .main__team-our {
+        font-size: 32px;
+        font-weight: 700;
+        color: #314a5b;
+        text-transform: uppercase;
+        margin-top: 105px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 649px) {
+    .main__block-photo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

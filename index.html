@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="VieWport" content="width=device-width, initial-scale=1">
     <title>Freelancer</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/titles.css">
@@ -14,44 +15,71 @@
 <body>
     <div class="main-wrapper">
         <div class="page-top__wrapper">
-            <header>
+                
                 <div class="container">
-                    <img src="img/Background.png" alt="" class="logo">
-                    <p class="logo__name"><span>Freelancer</span>.</p>
-                    <nav class="menu">
-                            <img src="img/Facebook.png" alt="Facebook" class="menu__facebook">   
-                        <img src="img/Twitter.png" alt="Twitter" class="menu__twitter">
-                            
-                        <ul>
-                            <li>
-                                <a href="#">About</a>
-                            </li>
-                            <li>
-                                <a href="#">Work</a>
-                            </li>
-                            <li>
-                                <a href="#">Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="titles">
-                            <h1 class="titles__first">
-                                    intelligence<br>
-                                    is nothing without<br>
-                                    ambition<span class="titles__first-point">.</span>
-                            </h1>
-                            <h2 class="titles__second">
-                                    We’re small but impressive creative agency.
-                            </h2>
-                            <button class="titles__button">
-                                    READ MORE
-                            </button>
+                    <div class="page-top__iner">
+                        
+                        
+                        <nav class="menu">
+                            <ul>
+                                <li>
+                                    <a href="#">About</a>
+                                </li>
+                                <li>
+                                    <a href="#">Work</a>
+                                </li>
+                                <li>
+                                    <a href="#">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="#footer">Contact</a>
+                                </li>
+                                <img src="img/Facebook.png" alt="Facebook" class="menu__facebook">   
+                                <img src="img/Twitter.png" alt="Twitter" class="menu__twitter">
+                            </ul>
+                            </nav>
+
+                        
+                            <p class="logo__name"><span>Freelancer</span>.</p>
+
+
+                            <div class="dropdown">
+                                <ul>
+                                    <li>
+                                        <a href="#">menu</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">About</a>
+                                                    <a href="#">Work</a>
+                                                    <a href="#">Portfolio</a>
+                                                    <a href="#">Contact</a>
+                                                </li>
+                                            </ul>
+                                    </li>
+                                </ul>
+                            </div>
+
+                       
+
+
+
+
+                            <div class="titles">
+                                <h1 class="titles__first">
+                                        intelligence<br>
+                                        is nothing without<br>
+                                        ambition<span class="titles__first-point">.</span>
+                                </h1>
+                                <h2 class="titles__second">
+                                        We’re small but impressive creative agency.
+                                </h2>
+                                <a href="#" class="titles__button">
+                                        READ MORE
+                                </a>
+                        </div>
                     </div>
                 </div>
-            </header>
+            
         </div>
         <main class="main-content">
             <div class="container">
@@ -93,17 +121,19 @@
                     <img src="img/MacBook.png" alt="apple" class="main__portfolio-apple">
                     <div class="main__portfolio-text">
                         <h2>
-                            portfolio<span>.</span>
+                            portfolio<span class="main__portfolio-text-point">.</span>
                         </h2>
                         <h3>
                             We are small, but strong team
                         </h3>
-                        <p class="main__portfolio-p">
+                        <span class="main__portfolio-about">
+                            <span class="main__portfolio-about-separation">
                             No more pricing grids. No more fine print.<br>
-                            Sending and receiving cash is free without gimmicks.<br>                                                                                        
+                            Sending and receiving cash is free without gimmicks.
+                            </span>                                                                                     
                             The same debit card you use to buy coffee lets<br>
                             deposit money straight to your bank account.
-                        </p>
+                        </span>
                         <div class="link__more">
                             <p>more<img src="img/Arrow.png" alt="arrow" class="link__more-arow"></p>
                         </div>
@@ -112,19 +142,21 @@
                 </div>
                 
                 <div class="main__team clearfix">
-                    <h2>
-                        our team<span>.</span>
-                    </h2>
-                    <h3>
-                        They are big but still friendly.
-                    </h3>
-                    <div class="main__block-photo clearfix">
+                    <div class="main__team-headline">
+                        <h2 class="main__team-our">
+                            our team<span>.</span>
+                        </h2>
+                        <h3 class="main__team-our-friendly">
+                            They are big but still friendly.
+                        </h3>
+                    </div>
+                <div class="main__block-photo clearfix">
                     <div class="main__team-joey">
                         <div class="team__photo">
                                 <img src="img/Photo1.png" alt="joey">
                         </div>
                         <div class="team__text">
-                             <h3>Joey</h3>
+                             <h3 class="team__text-name">Joey</h3>
                             <h4>Web developer</h4>
                              <p>Coffee lover.  Always<br>
                             on bike. iPhone fan.</p>
@@ -135,7 +167,7 @@
                                 <img src="img/Photo2.png" alt="matt">
                            </div>
                            <div class="team__text">
-                            <h3>Matt</h3>
+                            <h3 class="team__text-name">Matt</h3>
                             <h4>Web designer</h4>
                             <p>MTB Biker. Photoshop<br>
                             Master. Loving Father.</p>
@@ -146,7 +178,7 @@
                             <img src="img/Photo3.png" alt="mike">
                         </div>
                         <div class="team__text">
-                            <h3> Mike</h3>
+                            <h3 class="team__text-name"> Mike</h3>
                             <h4>Copywriter</h4>
                             <p>Drummer. Soup lover.<br>
                             Beer Drinker. Cyclist.</p>
@@ -162,7 +194,7 @@
             </div>
         </main>
         
-        <footer class="footer">
+        <footer id="footer">
             <div class="container">
                 <div class="footer__social">
                     <img src="img/google+.png" class="footer__google" alt="">

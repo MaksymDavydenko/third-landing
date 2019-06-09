@@ -3,22 +3,44 @@
     background-color: #e6eaed;
     height: 1px;
 }
-.footer {
+
+#footer {
     flex: 0 0 auto;
     background: #ffffff;
     padding: 33px 0 41px 0;
 }
+
 .footer__social {
+    display: flex;
     display: inline-block;
-    max-width: 100%;
-    height: auto;
-    overflow: hidden;
     word-spacing: 20px;
 }
+
 .footer__logo {
     float: right;
     font-size: 13px;
     font-weight: 400px;
     color: #b9c0c6;
     font-family: 'open-sans';
+}
+
+
+
+
+@media (max-width: 649px) {
+    .footer__social {
+        display: inline-block;
+        display: flex;
+        word-spacing: 40px;
+        justify-content: space-around;
+    }
+}
+@media (max-width: 649px) {
+    .footer__logo {
+        font-size: 13px;
+        font-weight: 400px;
+        color: #b9c0c6;
+        font-family: 'open-sans';
+        margin: 20px 0 auto;
+    } 
 }

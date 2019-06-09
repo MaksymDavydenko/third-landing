@@ -1,25 +1,73 @@
-.main__portfolio-text {
-    float: right;
-    padding-top: 120px;
+.main__portfolio { 
+    display: flex; 
 }
+
+.main__portfolio-text {
+    padding-top: 60px;
+    margin-left: 82px;
+}
+
+.main__portfolio-text-point {
+    color: #f0454c;
+}
+
 .main__portfolio-apple {
     padding-top: 56px;
+    
 }
+
 .main__portfolio h2 {
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
     color: #314a5b;
 }
+
 .main__portfolio h3 {
     font-size: 16px;
     font-weight: 400;
     color: #314a5b;
     font-family: "Open Sans";
 }
-.main__portfolio-p {
+
+.main__portfolio-about {
     font-size: 15px;
     font-weight: 400;
     color: #9aa0ab;
     font-family: "Open Sans";
 }
+
+.main__portfolio-about-separation {
+    padding: 32px 0;
+    display: block;
+}
+
+
+
+@media (max-width: 939px){
+    .main__portfolio {
+     display: flex;
+     flex-direction: column;
+    text-align: center;
+    }
+}
+@media (max-width: 939px) {
+    .main__portfolio-text {
+        padding-top: 60px;
+        margin: 0;
+    }
+}
+@media (max-width: 449px) {
+    .main__portfolio h2 {
+        font-size: 2em;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #314a5b;
+    }
+}
+@media (max-width: 939px) {
+    .main__portfolio-apple {
+        padding-top: 56px;
+        width: 100%;
+        }
+    }
